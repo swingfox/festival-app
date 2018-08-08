@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sinulogmusicbackground"
+    android:layout_margin="@dimen/cardview_default_radius">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginLeft="240dp">
+
+        <ImageView
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/play"
+            android:id="@+id/imgPlay" />
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/pause"
+            android:id="@+id/imgPause" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:animateLayoutChanges="true"
+        >
+
+        <ImageView
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/circle3"
+            android:id="@+id/circle1"
+            android:layout_width="120dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/circle2"
+            android:id="@+id/circle2"
+            android:layout_height="150dp"
+            android:layout_width="120dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/circle1"
+            android:id="@+id/circle3"
+            android:layout_height="150dp"
+            android:layout_width="120dp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        >
+
+        <ImageView
+            android:src="@drawable/buttoncircle3"
+            android:layout_height="150dp"
+            android:layout_width="120dp" />
+
+        <ImageView
+            android:src="@drawable/buttoncircle2"
+            android:layout_height="150dp"
+            android:layout_width="120dp" />
+
+        <ImageView
+            android:src="@drawable/buttoncircle1"
+            android:layout_height="150dp"
+            android:layout_width="120dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
